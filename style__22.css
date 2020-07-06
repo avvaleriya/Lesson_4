@@ -23,10 +23,12 @@
         position:absolute;
         top: 0;
         left: 0;
+        z-index: 1;
     }
 
     .ring__a:hover {
         background-color: yellow;
+        z-index: 5;
 
     }
     
@@ -38,10 +40,12 @@
         position:absolute;
         top: 0;
         right: 0;
+        z-index: 1;
     }
     
     .ring__b:hover {
         background-color: teal;
+        z-index: 5;
 
     }
     
@@ -53,10 +57,12 @@
         position:absolute;
         right: 0;
         bottom: 0;
+        z-index: 1;
     }
 
     .ring__c:hover {
         background-color: salmon;
+        z-index: 5;
 
     }
     
@@ -69,11 +75,12 @@
         position:absolute;
         left: 0;
         bottom: 0;
+        z-index: 1;
     }
 
     .ring__d:hover {
         background-color: mediumorchid;
-        opacity: 0.9;
+        z-index: 5;
 
     }
     
@@ -85,6 +92,7 @@
         position:absolute;
         margin-top: 15%;
         margin-left: 15%;
+        z-index: 2;
     }
 
     .small_square {
