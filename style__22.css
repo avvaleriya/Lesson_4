@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.big__square {
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    background: white;
+    position: relative;
+    }
+
+    .big__square:hover {
+        z-index: 10;
+    }
+    
+    .ring__a {
+        width: 33%;
+        height: 33%;
+        background-color: red;
+        border-radius: 50%;
+        position:absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .ring__a:hover {
+        background-color: yellow;
+
+    }
+    
+    .ring__b {
+        width: 33%;
+        height: 33%;
+        background-color: red;
+        border-radius: 50%;
+        position:absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    .ring__b:hover {
+        background-color: teal;
+
+    }
+    
+    .ring__c {
+        width: 33%;
+        height: 33%;
+        background-color: red;
+        border-radius: 50%;
+        position:absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .ring__c:hover {
+        background-color: salmon;
+
+    }
+    
+    
+    .ring__d {
+        width: 33%;
+        height: 33%;
+        background-color: red;
+        border-radius: 50%;
+        position:absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .ring__d:hover {
+        background-color: mediumorchid;
+        opacity: 0.9;
+
+    }
+    
+
+    .medium__square {
+        width: 70%;
+        height: 70%;
+        background-color: blue;
+        position:absolute;
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+
+    .small_square {
+        background-color: orange;
+        width: 50%;
+        height: 50%;
+        border-radius: 20px;
+        margin-top: 25%;
+        margin-left: 25%;
+                
+    }
+
+    .small_square:hover {
+        background-color: blue;
+    }
+
+    
+    
+
+
+
